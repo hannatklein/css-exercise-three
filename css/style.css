@@ -9,20 +9,26 @@ body {
 }
 
 .container {
-  background-color: #000000;
+  background-color: #c9c9c9;
   margin: 0 auto;
   width: 420px;
 }
 
 nav {
+  background-color: #000000;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
 
 div {
   display: inline-block;
+}
+
+.arrow {
+  display: inline-block;
+  position: relative;
 }
 
 .content {
@@ -50,16 +56,15 @@ div {
   padding: 10px 0 15px 15px;
 }
 
+.location:hover {
+  background-color: #898989;
+}
+
 .restaurant-list {
   padding-top: 50px;
 }
 
 .restaurant-list div {
-  background-color: #c9c9c9;
   border: .25%;
   padding: 2%;
-}
-
-.restaurant-list div:hover {
-    background-color: #898989;
 }
