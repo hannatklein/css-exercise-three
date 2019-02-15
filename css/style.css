@@ -22,18 +22,16 @@ nav {
   width: 420px;
 }
 
-div {
-  display: inline-block;
-}
-
 .arrow {
   display: inline-block;
   position: relative;
+  vertical-align: middle;
 }
 
 .content {
   display: inline-block;
-  width: 90%
+  width: 90%;
+  vertical-align: middle;
 }
 
 .content h1 {
@@ -41,13 +39,13 @@ div {
   font-size: 1.8em;
   font-weight: bold;
   line-height: 1.5em;
-  width: 330px;
+  width: 320px;
 }
 
 .content h3 {
   display: inline-block;
   font-size: 1.4em;
-  width: 330px;
+  width: 320px;
 }
 
 .location {
