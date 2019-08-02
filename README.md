@@ -1,2 +1,1 @@
-# css-exercise-three
-CSS exercise focused on box model
+CSS - exercise 3 - focused on box model
